@@ -1,0 +1,13 @@
+POST /countries/refresh
+    Fetch country data
+    Extract 
+            - Currency Code
+            - Name
+            - Capital
+            - Region
+            - Population
+            - Flag url
+    With Currency Code, fetch exchange rate for the country
+    Get random val btw 1000 and 2000 inclusive
+    Get estimated_gdp = population × random(1000–2000) ÷ exchange_rate
+    Store in MySQL DB (check slack)
